@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 /**
- * binary_tree_order - Entry point
+ * binary_tree_postorder - Entry point
  * @tree: pointer that point to the parent node
  * @func: function that call all nodes
  * Return: 1 or 0
