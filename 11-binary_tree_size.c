@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 /**
- * binary_tree_height - Entry point
+ * binary_tree_size - Entry point
  * @tree: pointer that point to the parent node
  * Return: 1 or 0
  **/
