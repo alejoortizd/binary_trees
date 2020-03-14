@@ -23,7 +23,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 
 #include "binary_trees.h"
 /**
- * binary_tree_nodes - Entry point
+ * binary_tree_balance - Entry point
  * @tree: pointer that point to the parent node
  * Return: 1 or 0
  **/
