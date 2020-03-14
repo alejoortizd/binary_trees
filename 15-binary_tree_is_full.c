@@ -8,12 +8,12 @@
 int binary_tree_is_full(const binary_tree_t *tree)
 
 {
-	size_t stree = 0;
+	int f = 0;
 
 	if (tree == NULL)
 		return (0);
 	if (tree->left == NULL && tree->right == NULL)
 		return (1);
-	stree = binary_tree_nodes(tree->left) + binary_tree_nodes(tree->right);
-	return (stree);
+	f = binary_tree_is_full(tree->left) + binary_tree_is_full(tree->right);
+	return (f);
 }
